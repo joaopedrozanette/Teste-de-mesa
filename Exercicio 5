@@ -1,0 +1,14 @@
+Exercicio 5
+
+<?php
+    $nr = array(
+         array(1,3,5),
+         array(7,9,11),
+         array(13,15,17),
+    );
+            foreach ($nr as $linha) {
+            foreach ($linha as $nr) {
+                      echo $nr . ' ';
+            }
+        echo "\n";
+    }
