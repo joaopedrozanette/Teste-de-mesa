@@ -1,4 +1,4 @@
-Exercicio 4
+
 
 $mega_sena[6] = [33, 4, 47, 7, 11, 25];
 $aux = 0;
