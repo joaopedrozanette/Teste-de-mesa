@@ -1,0 +1,17 @@
+Exercicio 6
+
+<?php
+
+$matriz = [
+    [1, 3, 5],
+    [7, 9, 11],
+    [13, 15, 17]
+];
+
+$somar = 0;
+
+foreach ($matriz as $linha) { foreach ($linha as $ele) {  $somar += $ele; }    }
+                          
+echo "A soma desses numeros é: ". $somar;"\n"
+
+?>
